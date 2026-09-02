@@ -1,0 +1,23 @@
+{
+  "name": "bundler-activity",
+  "version": "1.0.0",
+  "description": "**Instructions:**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aziza20-ux/bundler-activity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aziza20-ux/bundler-activity/issues"
+  },
+  "homepage": "https://github.com/aziza20-ux/bundler-activity#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
