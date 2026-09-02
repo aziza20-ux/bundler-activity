@@ -1,4 +1,4 @@
-// --- Starter JavaScript Code ---
+
 
 // A simple Book class (using constructor function in JS)
 class Book{
@@ -39,3 +39,17 @@ displayBook(book2);
 // Task 3: Create an interface for a "Review" object (with properties like bookId, rating, comment).
 // Task 4: Add a function to add a review to a book (you can simulate this with an array for now).
 // Task 5: Add type annotations to the new variables and functions that you created in prior steps.
+
+//review feature
+
+interface Review{
+  bookId:number;
+  rating:number;
+  comment:string;
+}
+
+function addReview(bookId:number, rating:number, comment:string):Review[]{
+  let review:Review[] = []
+  review.push({bookId, rating, comment})
+  return review;
+}
