@@ -33,15 +33,8 @@ const book2 = new Book("The Lord of the Rings", "J.R.R. Tolkien", 1954);
 displayBook(book1);
 displayBook(book2);
 
-// --- Tasks (Converting to TypeScript) ---
 
-// Task 1: Add type annotations to the function parameters and return types.
-// Task 2: Convert the Book function to a TypeScript class.
-// Task 3: Create an interface for a "Review" object (with properties like bookId, rating, comment).
-// Task 4: Add a function to add a review to a book (you can simulate this with an array for now).
-// Task 5: Add type annotations to the new variables and functions that you created in prior steps.
-
-//review feature
+//review feature in typescript
 
 interface Review{
   bookId:number;
